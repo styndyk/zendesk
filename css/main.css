@@ -181,3 +181,85 @@ a {
 
 
 /* End Hero styles */
+
+/* Messaging styles */
+
+.messaging {
+    background-color: #FED6A8;
+}
+
+.messaging .container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.messaging__images {
+    position: relative;
+}
+
+.messaging__images img {
+    position: relative;
+}
+
+.messaging__images .superNew {
+    position: absolute;
+    z-index: 4;
+    top: -85px;
+    left: -80px;
+}
+
+.messaging__images .chat {
+    z-index: 3;
+}
+
+.messaging__images .order {
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 100px;
+}
+
+.messaging__mainContent {
+    max-width: 450px;
+}
+
+.messaging__mainContent__title {
+    font-size: 31px;
+    line-height: 40px;
+}
+
+.messaging__mainContent__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #17494D;
+    margin-bottom: 30px;
+}
+
+.messaging__mainContent__buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.messaging__mainContent__buttons__button {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+}
+
+.messaging__mainContent__buttons__button::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #17494D;
+}
+
+/* End Messaging styles */

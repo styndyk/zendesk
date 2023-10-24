@@ -44,6 +44,7 @@ a {
 .header {
     min-height: 120px;
     max-height: 150px;
+    margin-bottom: 10px;
 }
 
 .header .container {
@@ -92,3 +93,91 @@ a {
 
 
 /* End Header styles */
+
+/* Hero styles */
+
+.hero {
+    background-color: #17494D;
+    min-height: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero__about {
+    min-width: 600px;
+}
+
+.hero__about__title {
+    font-size: 77px;
+    line-height: 85px;
+    color: #ffffff;
+}
+
+.hero__about__title .pink {
+    color: #CE9FB7;
+}
+
+.hero__about__title .green {
+    color: #00A656;
+}
+
+.hero__about__title .blue {
+    color: #30AABC;
+}
+
+.hero__about__title .underline {
+    position: relative;
+}
+
+.hero__about__title .underline::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.hero__main {
+    max-width: 400px;
+}
+
+.hero__main__text {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 35px;
+}
+
+.hero__main__buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.hero__main__buttons a {
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    border: 1px solid #FF6224;
+}
+
+.hero__main__buttons__fill {
+    background-color: #FF6224;
+}
+
+.hero__main__buttons__transparent {
+    background-color: transparent;
+}
+
+
+/* End Hero styles */

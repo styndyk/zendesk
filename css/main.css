@@ -13,6 +13,7 @@ body {
     font-size: 14px;
     background-color: #F8F9F9;
     color: #03363D;
+    font-family: "Roboto", sans-serif;
 }
 
 ul, ol {
@@ -37,3 +38,57 @@ a {
 }
 
 /* End General Styles */
+
+/* Header styles */
+
+.header {
+    min-height: 120px;
+    max-height: 150px;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__top__menu__list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__top__menu__link {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__main__menu__list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header__main__menu__item__link {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header__main__menu__item__link.button {
+    padding: 15px 35px;
+    color: #ffffff;
+    background-color: #17494D;
+}
+
+
+/* End Header styles */
